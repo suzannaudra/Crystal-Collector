@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Gem and Crystal Game!</title>
+  </head>
+  <body>
+    <div class="container">
+
+        <div class="jumbotron" style="background-color: brown; color: burlywood;"> 
+            <div class="container">
+                <h1 class="text-center">Crystal Collector</h1>
+            </div>
+        </div>
+
+    <div class="row">
+
+        <div class="col-lg-12">
+
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title text-center">Instructions</h3>
+                </div>
+                <div class="panel body">
+                    <p> 
+                            The player wins if their total score matches the random number from the beginning of the game.
+                            
+                            The player loses if their score goes above the random number.
+                            
+                            The game restarts whenever the player wins or loses.
+                         </p>
+                </div>    
+             </div>
+        </div>
+    </div>
+
+<div class="row">
+
+        <div class="col-md-3">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title text-center">Goal Score</h3>
+                    </div>
+                    <div class="panel-body">
+                        <h3 class="text-center" id="targetScore"></h3>
+                    </div>
+                </div>
+        </div>
+
+        <div class="col-md-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                         <h3 class="panel-title text-center">Your Score</h3>
+                    </div>
+                    <div class="panel-body">
+                        <h3 class="text-center" id="currentScore"></h3>
+                    </div>
+                </div>
+        </div>    
+        <div class="col-md-6">
+                <div class="pane panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title text-center">Crystals</h3>
+                    </div>
+                    <div class="panel-body text-center">
+                        <img src="https://cdn3.volusion.com/qz29d.hncd6/v/vspfiles/photos/ZAN-215-P-2.jpg?v-cache=1518431548" alt="emerald" height="75px" width="75px" id="emerald">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRrTGA2RvXIwrRPtWaNDGZrx2TmyQHQZJhmxH_lWkEubRAP87o0" alt="rainbow" height="75px" width="75px" id="rainbow">
+                        <img src="https://cdn.shopify.com/s/files/1/1014/6323/products/DREAMAMETHYST-CRYSTAL_grande.jpg?v=1561638362" alt="sparkle" height="75px" width="75px" id="sparkle">
+                        <img src="https://www.crystalandglassbeads.com/10549-thickbox_default/ss12-swarovski-factory-pack-rhinestones-meridian-blue.jpg" alt="azurite" height="75px" width="75px" id="azurite">
+                
+                    </div>
+                    </div>
+        </div>
+    </div>
+         
+        <br>
+    <div class="row">
+        <div class="col-lg-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title text-center">Wins</h3>
+                    </div>
+                    <div class="panel-body">
+                        <h3 class="text-center"id="winCount">0</h3>
+                    </div>
+                </div>
+            </div>
+            
+        <div class="col-lg-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title text-center">Loss Count</h3>
+                    </div>
+                    <div class="panel-body">
+                        <h3 class="text-center" id="lossCount">0</h3>
+                    </div>
+                </div>
+    </div>
+</div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+    <script src="assets/javascript/game.js"></script>
+
+    
+</body>
+</html>
